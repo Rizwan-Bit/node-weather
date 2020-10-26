@@ -37,7 +37,8 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'Ph No: +91 9106839596',
+        phNo: 'Ph No: +91 9106839596',
+        email: 'Mail: rizwandiwan749@gmail.com',
         title: 'Help',
         name: 'Rizwan Diwan'
     })
